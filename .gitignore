@@ -1,9 +1,3 @@
-# Archivos de copia de seguridad de texto
-*.bak
-
-#Database
-*.sqlite3
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -148,6 +142,10 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Django project
+/static/
+/public/
 
 # Pyre type checker
 .pyre/
